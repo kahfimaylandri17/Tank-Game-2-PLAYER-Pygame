@@ -12,7 +12,7 @@ pygame.display.set_caption("Tank Game 2 PLAYER")
 clock = pygame.time.Clock()
 FPS = 60
 
-map_img = pygame.image.load("map.png").convert_alpha()
+map_img = pygame.image.load("map.png")
 map_img = pygame.transform.scale(map_img, (WIDTH, HEIGHT))
 
 player1_img = pygame.image.load("player1.png").convert_alpha()
